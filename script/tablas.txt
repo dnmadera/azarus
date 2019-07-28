@@ -1,0 +1,8 @@
+CREATE TABLE `azarusdb`.`usuario` (
+  `id` INT NOT NULL,
+  `nombreUsuario` VARCHAR(255) NOT NULL,
+  `apellido` VARCHAR(255) NOT NULL,
+  `nombre` VARCHAR(255) NOT NULL,
+  `ip` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX `nombreUsuarioIx` (`nombreUsuario` ASC));
